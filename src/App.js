@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import link from "./images/link.jpg";
 import "./style.css";
@@ -9,14 +8,9 @@ function App() {
   return (
     <div className="App">
       <h1 class="title red">The legende of ZELDA</h1>
-      <p>
-        {" "}
-        <img src={link} />
-      </p>
-      <p>
-        {" "}
-        <img src="image/zelda.jpg" />{" "}
-      </p>
+      <img src={link} /> <br />
+      <img src="image/zelda.jpg" />
+      <br />
       <audio controls src={sidon} />
     </div>
   );
